@@ -5,7 +5,7 @@
 # Do similar for other three images
 
 # Tagging
-- docker tag udagram-api-feed phatkhatuam/udagram-frontend:v1
+- docker tag udagram-api-feed phatkhatuan/udagram-frontend:v1
 # Do similar for other three images
 
 # Push
