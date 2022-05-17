@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: udagram-reverse-proxy
-  namespace: project-3
+  name: udagram-reverseproxy
+  namespace: Udagram3
   labels:
-    app: udagram-reverse-proxy
+    app: udagram-reverseproxy
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: udagram-reverse-proxy
+      app: udagram-reverseproxy
   template:
     metadata:
       labels:
-        app: udagram-reverse-proxy
+        app: udagram-reverseproxy
     spec:
       containers:
       - image: phatkhatuan/udagram-api-feed:v1
-        name: udagram-reverse-proxy
+        name: udagram-reverseproxy
         imagePullPolicy: Always
         envFrom:
         - configMapRef:
