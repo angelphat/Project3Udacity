@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: udagram-reverseproxy
-  namespace: Udagram3
   labels:
     app: udagram-reverseproxy
 spec:
