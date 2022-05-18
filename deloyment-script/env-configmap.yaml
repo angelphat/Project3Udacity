@@ -3,10 +3,12 @@ kind: ConfigMap
 metadata:
   name: env-config
 data:
-  AWS_BUCKET: uda-3-bucket
-  AWS_PROFILE: vuAdmin
+  AWS_BUCKET: arn:aws:s3:::mys3-udacity
+  AWS_PROFILE: phatkt
   AWS_REGION: us-east-1
   JWT_SECRET: testing
-  POSTGRES_DB: vunh24
-  POSTGRES_HOST: database-1.cqpj0mnkxydn.us-east-1.rds.amazonaws.com
-  URL: http://a39abbbe159fa41a0ac42f36c26402cf-1252335595.us-east-1.elb.amazonaws.com:8100  
+  POSTGRES_DB: dataphatprod
+  POSTGRES_USERNAME: dataphatprod
+  POSTGRES_PASSWORD: dataphatprod
+  POSTGRES_HOST: dataphatprod.chll3lpk1rey.us-east-1.rds.amazonaws.com
+  URL: https://911FFF442B43B87AC4CAF021B711221C.gr7.us-east-1.eks.amazonaws.com:8100  

@@ -6,7 +6,7 @@ export AWS_BUCKET=arn:aws:s3:::mys3-udacity
 export AWS_REGION=us-east-1a
 export AWS_PROFILE=phatkt
 export JWT_SECRET=testing
-export URL=http://localhost:8100
+export URL=http://aa28445920c7e440e933f2c27f799b10-769705814.us-east-1.elb.amazonaws.com:8080
 export DOCKER_USERNAME=phatkhatuan
 export DOCKER_PASSWORD=2c3v@2023
 
